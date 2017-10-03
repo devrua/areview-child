@@ -51,13 +51,23 @@
 		<div class="container">
 			<div class="site-branding">
 				<?php if ( get_theme_mod('site_logo') ) : ?>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" /></a><div class="links"><a href="http://www.scoilgheimhridh.com/ire/">Gaeilge</a> <a href="http://www.scoilgheimhridh.com/">English</a><br>
-                    <div class="socials">
-                <a href="https://www.facebook.com/ScoilGheimhridh?ref=hl" target="_blank" onmouseover="document.face_but.src='http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/facebook_on.png'" onmouseout="document.face_but.src='http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/facebook_off.png'">
-<img src="http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/facebook_off.png" width:"42px" height:"45px" alt="Move your mouse over me" name="face_but">
-</a></div><div class="socials"><a href="https://twitter.com/ScoilGheimhridh" target="_blank" onmouseover="document.twitter_but.src='http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/twitter_on.png'" onmouseout="document.twitter_but.src='http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/twitter_off.png'">
-<img src="http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/twitter_off.png" width:"42px" height:"45px" alt="Move your mouse over me" name="twitter_but">
-</a></div>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" /></a>
+				<div class="links">
+					<div class="lang-links">
+						<a href="http://www.scoilgheimhridh.com/ire/">Gaeilge</a> 
+						<a href="http://www.scoilgheimhridh.com/">English</a>
+					</div>
+					<div class="social-links">
+	                    <div class="socials">
+	                		<a href="https://www.facebook.com/ScoilGheimhridh?ref=hl" target="_blank" onmouseover="document.face_but.src='http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/facebook_on.png'" onmouseout="document.face_but.src='http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/facebook_off.png'"><img src="http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/facebook_off.png" width:"42px" height:"45px" alt="Move your mouse over me" name="face_but">
+							</a>
+						</div>
+						<div class="socials">
+							<a href="https://twitter.com/ScoilGheimhridh" target="_blank" onmouseover="document.twitter_but.src='http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/twitter_on.png'" onmouseout="document.twitter_but.src='http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/twitter_off.png'"><img src="http://www.scoilgheimhridh.com/wp-content/uploads/2014/09/twitter_off.png" width:"42px" height:"45px" alt="Move your mouse over me" name="twitter_but">
+							</a>
+						</div>
+					</div>
+				</div>
 				<?php else : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>

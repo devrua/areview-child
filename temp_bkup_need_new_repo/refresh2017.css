@@ -1,0 +1,139 @@
+/***************************** MOBILE STYLES *****************************/
+
+/* Background image set in the theme in WP dashboard, but styling/positioning options limited */
+body.custom-background {
+	background-image: url('images/sg2017HeroMob.png') !important;
+	background-size: contain;
+}
+
+/* logo image */
+.site-branding {
+	text-align: right;
+}
+
+.site-branding > a > img {
+	height: 160px;
+}
+
+.main-navigation {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.btn.menu-toggle {
+	width: 40px;
+	font-size: 25px;
+	padding: 1px;
+	margin: 10px 0;
+	border-radius: 3px;
+}
+
+.site-header > .container {
+	padding: 0;
+}
+
+.site-branding .links {
+	position: absolute;
+	z-index: 9999;
+	top: 196px;
+	left: 72px;
+	width: 100%;
+	min-height: 30px;
+}
+
+.lang-links {
+	position: absolute;
+	left: 0;
+	margin-top: 3px;
+	width: 120px;
+	text-align: left;
+}
+
+.lang-links .links a {
+	margin: 0px 9px;
+	display: inline-block;
+	padding-top: 7px;
+}
+
+.social-links {
+	width: 120px;
+	position: absolute;
+	right: 0;
+	top: -2px;
+	margin-right: 85px;
+}
+
+.socials {
+	float: right;
+	width: 30px;
+	padding: 0;
+	margin: 0 0 0 15px;
+}
+
+.socials .links a {
+	margin: 0;
+}
+
+.decoration-bar {
+	background: rgb(0, 160, 176) !important;
+}
+
+
+
+
+/***************************** DESKTOP STYLES *****************************/
+@media only screen and (min-width: 768px) {
+
+	body.custom-background {
+		background-image: url('images/sg2017HeroDesk.png') !important;
+		background-attachment: fixed !important;
+		background-size: cover;
+
+	}
+
+	/* logo image */
+	.site-branding > a > img {
+		height: 260px;
+	}
+
+	.lang-links {
+		margin-top: 103px;
+		width: 120px;
+		text-align: left;
+		right: 10%;
+		left: auto;
+	}
+
+	.social-links {
+		width: 50px;
+		position: fixed;
+		right: auto;
+		top: -2px;
+		margin: 0;
+		left: 10px;
+	}
+
+	.socials {
+		margin: 20px 0 0 15px;
+	}
+
+	/* Main nav bar */
+	#menu-main-menu {
+		margin: 0;
+		padding-left: 0;
+		width: 100%;
+		min-height: 20px;
+		text-align: left;
+	}
+
+	.main-navigation li {
+		float: none;
+		position: relative;
+		padding: 20px 3.4%;
+		margin-right: 1px;
+		text-transform: uppercase;
+		display: inline-block;
+	}
+
+} /* End desktop media query */
+
+
