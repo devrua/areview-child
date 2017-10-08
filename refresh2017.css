@@ -285,6 +285,10 @@ body.home header.entry-header {
 		display: inline-block;
 	}
 
+	.site-content {
+		padding: 60px 5% 0;
+	}
+
 	.content-area {
 		width: 61% !important;
 		float: left;
@@ -301,7 +305,7 @@ body.home header.entry-header {
 	}
 
 	#sidebar-footer {
-		padding: 50px 60px;
+		padding: 50px 5%;
 	}
 
 	#sidebar-footer .sidebar-column + .clearfix {
