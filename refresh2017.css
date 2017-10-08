@@ -138,7 +138,18 @@ section #huge_it_videogallery {
     max-width: inherit !important;
     height: auto !important;
     min-height: 100% !important;
- }
+}
+
+footer .site-info, footer .decoration-bar {
+	display: none;
+}
+
+#sidebar-footer {
+	background-image: url('img/pattern.png');
+	background-repeat: repeat;
+	background-color: #000000;
+
+}
 
 
 /* HOME STYLES */
