@@ -24,6 +24,14 @@ body.custom-background {
 	background-color: rgba(0,0,0,0.8);
 }
 
+.main-navigation a {
+	text-shadow: 0;
+}
+
+.main-navigation ul ul li {
+    background-color: inherit;
+}
+
 .btn.menu-toggle {
 	width: 40px;
 	font-size: 25px;
@@ -161,6 +169,39 @@ body.home header.entry-header {
 	.site-branding > a > img {
 		height: 260px;
 	}
+
+	.main-navigation ul ul {
+		top: auto;
+		background: rgba(0, 0, 0, 0.9) none repeat scroll 0% 0%;
+		box-shadow: initial;
+		margin-top: 22px;
+		width: 100%;
+		text-align: center;
+		padding: 0px;
+		border: 4px solid rgb(2, 156, 171);
+	}
+
+	.main-navigation ul li:hover > ul {
+		left: 0;
+	}
+
+	.main-navigation ul ul li {
+		background-color: transparent;
+		padding: 20px 3.4%;
+		border: 0;
+	}
+
+	.main-navigation a {
+		text-shadow: initial;
+		font-weight: 700;
+	}
+
+	.main-navigation ul ul a {
+    	width: auto;
+	}
+
+
+
 
 	.lang-links {
 		margin-top: 103px;
