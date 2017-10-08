@@ -308,6 +308,22 @@ body.home header.entry-header {
 		display: none;
 	}
 
+	#sidebar-footer .sidebar-column:first-child {
+		padding-left: 0;
+	}
+
+	#sidebar-footer .sidebar-column:last-child {
+		padding-right: 0;
+	}
+
+	#text-5 .textwidget {
+	    float: none;
+	}
+
+	#text-6 {
+		margin: 0;
+	}
+
 } /* End desktop media query */
 
 
