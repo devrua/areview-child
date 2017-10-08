@@ -145,18 +145,40 @@ footer .site-info, footer .decoration-bar {
 }
 
 #sidebar-footer {
+	padding: 50px 10px;
 	background-image: url('img/pattern.png');
 	background-repeat: repeat;
 	background-color: #000000;
-
 }
 
+#side-bar footer table {
+	width: auto;
+	border: 0;
+}
+
+#sidebar-footer td {
+	padding: 0;
+	border: 0
+}
+
+#sidebar-footer .textwidget {
+	padding: 0;
+	margin: 0;	
+}
+
+#text-5 .textwidget {
+	float: none;
+}
+
+#text-5 .textwidget img {
+	width: 100%;
+	max-width: 160px;
+}
 
 /* HOME STYLES */
 body.home header.entry-header {
 	display: none;
 }
-
 
 
 
@@ -211,9 +233,6 @@ body.home header.entry-header {
     	width: auto;
 	}
 
-
-
-
 	.lang-links {
 		margin-top: 103px;
 		width: 120px;
@@ -266,6 +285,14 @@ body.home header.entry-header {
 
 	.card {
 		min-height: 255px;
+	}
+
+	#sidebar-footer {
+		padding: 50px 60px;
+	}
+
+	#sidebar-footer .sidebar-column + .clearfix {
+		display: none;
 	}
 
 } /* End desktop media query */
