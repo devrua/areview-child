@@ -99,4 +99,4 @@
 	<?php if ( is_home() && get_theme_mod('carousel_display') ) : ?>
 		<?php echo areview_carousel_template(); ?>
 	<?php endif; ?>
-	<div id="content" class="site-content container">
+	<div id="content" class="site-content container-fluid">
