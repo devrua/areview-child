@@ -145,7 +145,7 @@ footer .site-info, footer .decoration-bar {
 }
 
 #sidebar-footer {
-	padding: 50px 10px;
+	padding: 50px 10px 20px;
 	background-image: url('img/pattern.png');
 	background-repeat: repeat;
 	background-color: #000000;
@@ -167,12 +167,25 @@ footer .site-info, footer .decoration-bar {
 }
 
 #text-5 .textwidget {
-	float: none;
+	float: right;
 }
 
 #text-5 .textwidget img {
 	width: 100%;
 	max-width: 160px;
+}
+
+#text-6 {
+	margin: 30px 0 0;
+}
+
+#text-6 .textwidget {
+	float: right;
+}
+
+#text-6 .textwidget img {
+	max-width: 200px;
+	margin: 0;
 }
 
 /* HOME STYLES */
