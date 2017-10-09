@@ -194,6 +194,11 @@ body.home header.entry-header {
 }
 
 
+/* EVENTS STYLES */
+.page-template-custom_events .widget-area {
+	display: none !important;
+}
+
 
 
 
@@ -328,6 +333,11 @@ body.home header.entry-header {
 		margin: 0;
 	}
 
+
+	/* EVENTS STYLES */
+	.page-template-custom_events .content-area {
+		width: 100% !important;
+	}
 } /* End desktop media query */
 
 

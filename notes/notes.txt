@@ -1,0 +1,38 @@
+colour palette from Angie - links, headers, highlights
+
+
+nice-to-dos:
+video gallery responsive or bigger videos
+change nav menu (see screenshot)
+re-work position irish/english
+sticky nav
+
+
+
+
+ex-repo
+functions.php
+sidebar-footer.php (areview)
+
+
+
+
+snags:
+
+tel. no. too wide footer narrow mobile
+
+
+
+
+
+CMS stuff:
+widgets: footer
+home
+
+
+
+
+
+
+
+
