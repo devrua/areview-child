@@ -11,6 +11,10 @@ body.custom-background {
 	background-repeat: no-repeat;
 }
 
+a {
+	color: #ed7b32;
+}
+
 /* logo image */
 .site-branding {
 	text-align: right;
@@ -199,6 +203,17 @@ body.home header.entry-header {
 	display: none !important;
 }
 
+
+
+/* TRAVEL INFO */
+.page-id-30 .content-area {
+	width: 100%;
+}
+
+.gm-style-iw span {
+	color: #000;
+	font-weight: 700;
+}
 
 
 
