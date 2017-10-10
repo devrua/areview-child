@@ -551,3 +551,228 @@ Responsive
 		margin: 0 auto;
 	}
 }
+
+
+/* Formerly embedded styles custom_events template */
+body.page-template-custom_events .modal-dialog {
+	width: 920px;
+	height:700px;
+}
+body.page-template-custom_events #scoilInfo .holder {
+	width: 350px;
+	height: 400px;
+	margin: 0 0 0 540px;
+}
+
+body.page-template-custom_events #scoilInfo .boxer {
+	color: #000;
+	width: 350px;
+	height:254px;
+	margin: 10px;
+	padding: 5px 0 5px 0;
+	border: solid 1px #333;
+	overflow: scroll;
+	background: url("http://www.scoilgheimhridh.com/wp-content/uploads/2016/11/trans.png");
+}
+
+body.page-template-custom_events #scoilInfo .boxer p {
+	color: #000;
+	width: 300px;
+	font-weight: 400;
+	padding: 8px 4px 0 4px;
+}
+
+body.page-template-custom_events .tryer{
+	width: 200px;
+	border: solid 2px #fff;
+}
+
+body.page-template-custom_events .tryer2{
+	margin: -10px 30px 0 12px;
+	width: 230px;
+}
+
+body.page-template-custom_events .tryer3{
+	float: right;
+	margin:98px 0 0 0;
+}
+
+body.page-template-custom_events #myModal{	
+	height: 600px;
+	top: calc(30% - 50px) !important;
+}
+
+body.page-template-custom_events .close{
+	color: #edc951;
+	float: right;
+	font-weight: 700;
+}
+
+body.page-template-custom_events .modal-header{
+	background: #830f15;
+	border-radius: 6px;
+}
+
+body.page-template-custom_events .modal-title{
+	color: #fff;
+}
+
+body.page-template-custom_events .modal-body{
+	background: #fff;
+	border-radius: 6px;
+}
+
+body.page-template-custom_events #scoilInfo iframe{
+	float: left;
+	width: 200px;
+	height: 120px;
+
+}
+
+body.page-template-custom_events #scoilInfo h2{
+	float: left;
+	font-size: 24px;
+	font-weight: 700;
+	color: #000;
+	margin: 0 0 0 -40px;
+	padding: 0 5px 0 5px;
+}
+
+
+body.page-template-custom_events #scoilInfo h3{
+	float:left;
+	font-size: 28px;
+	font-weight: 700;
+	color: #000;
+	margin: 0 0 10px 0;
+}
+
+body.page-template-custom_events #scoilInfo h4{
+
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	margin: 0;
+}
+
+.artist-info{
+	width: 100px;
+	height: 60px;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	background-color: #ff0000;
+	border: solid 1px #fff;
+}
+
+
+.infoEvent {
+	width: 100px;
+	height: 30px;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	background-color: #ff0000;
+	border: solid 1px #fff;
+}
+
+.infoEvent h4{
+	font: 14px;
+	font: inherit;
+	margin: -5px 0 4px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.infoEvent :hover{
+	margin-bottom: 6px;
+	cursor: pointer;
+}
+
+body.page-template-custom_events .ui-dialog {
+	z-index: 1000 !important;
+}
+
+body.page-template-custom_events .ui-dialog .ui-dialog-content {
+	border: 0;
+	padding: .5em 1em;
+	background: #00ff00;
+	overflow: auto;
+	zoom: 1;
+}
+
+body.page-template-custom_events #primary {
+	width: 100%;
+}
+
+body.page-template-custom_events #secondary {
+	display: none;
+}
+
+.event_float{
+	float:left;
+	color: #000;
+	font-size: 12px;
+	line-height: 16px;
+	width: 230px;
+	height: 335px;
+	margin: 20px 16px 10px 16px;
+	padding: 10px 10px 5px 10px;
+	border: 1px solid #752222;
+	-webkit-box-shadow: 0px 3px 3px #333;
+	-moz-box-shadow: 0px 3px 3px #333;
+	box-shadow: 0px 3px 3px #333;
+}
+
+.event_float form > img {
+	min-height: 116px;
+}
+
+.event_float a{
+	color: #330000;
+	line-height: 16px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.event_float h2{
+	color: #000;
+	font-weight: 700;
+	margin: 10px 0 20px 0;
+	font-size: 18px;
+	min-height: 100px;
+}
+
+.event_float h3{
+	color: #752222;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.event_float h4{
+	mar5in: 0 10px 30px 0;
+	color: #555;
+	font-weight: bold;
+	font-size: 16px;
+	min-height: 34px;
+}
+
+.event_float .btn	{
+	position: relative;
+	float: right;
+	top: 0;
+	background-color: #d3bd67;
+	font-size: 14px;
+	width: 75px;
+	height: 20px;
+	border: 1px solid #000;
+	-webkit-box-shadow: 0px 3px 3px #999;
+	-moz-box-shadow: 0px 3px 3px #999;
+	box-shadow: 0px 3px 3px #999;
+}
+
+.event_float .btn	h4{
+	margin: -2px 0 0 0;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+/* End custom embedded styles custom_template */
