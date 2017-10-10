@@ -281,33 +281,35 @@ function showArtist(str) {
 	</div>
 
 <!--//Artists Information //////////////////////-->
-<div class="event">Dé Céadaoin, 27 Nollaig</div>
+<div class="row clearfix">
+	<div class="event">Dé Céadaoin, 27 Nollaig</div>
+</div>
+<div class="row">
 <?php
 
 global $wpdb;
 $results = $wpdb->get_results("SELECT * FROM wp_artists WHERE date LIKE '%27 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
 foreach($results as $row) {
-          $artist_id = $row['artist_id'];
-		  		$artist_name  = $row['artist_name'];
-					$artist_info = $row['artist_info'];
-		  		$date  = $row['date'];
-					$time = $row['time'];
-		  		$venue  = $row['venue'];
-				$book_url  = $row['book_url'];
-					$pic  = $row['pic'];
-					$picLarge  = $row['picLarge'];
+        	$artist_id = $row['artist_id'];
+		  	$artist_name  = $row['artist_name'];
+			$artist_info = $row['artist_info'];
+		  	$date  = $row['date'];
+			$time = $row['time'];
+		  	$venue  = $row['venue'];
+			$book_url  = $row['book_url'];
+			$pic  = $row['pic'];
+			$picLarge  = $row['picLarge'];
 
-	print ("<div class=event_float>");
-
+	print ("<div class=event_float col-xs-12 col-sm-6 col-md-3 col-lg-3>");
 	print ("<form action=wp-content/themes/areview-child/artist_info.php method=post>");
-		print ("<img class=aligncenter size-full wp-image-1652 src=".$pic." />
-	<h4> ".$time." - ".$venue."</h4><h2>".$artist_name."</h2>".$book_url." ");
-
-print ("<form id=form method=post>");
-print ("<button type=button value=".$artist_id." id=infoEvent onclick=showArtist(this.value) class=btn btn-info data-toggle=modal data-target=#myModal><h4>Artist info</h4></button</div>");
-print ("</form></div>");
+	print ("<div class=img-wrap style=\"background-image: url(" .$pic.");\"></div>
+			<h4> ".$time." - ".$venue."</h4><h2>".$artist_name."</h2>
+			<div class=\"cta-wrap\">".$book_url);
+	print ("<button type=button value=".$artist_id." id=infoEvent onclick=showArtist(this.value) class=btn btn-info data-toggle=modal data-target=#myModal><h4>Artist info</h4></button></div>");
+	print ("</form></div>");
 }
 ?>
+</div><!--row-->
 <div class="event">Déardaoin, 28 Nollaig</div>
 <?php
 
