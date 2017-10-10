@@ -58,7 +58,7 @@ foreach($results as $row) {
 			$pic  = $row['pic'];
 			$picLarge  = $row['picLarge'];
 
-	print ("<div class=event_float col-xs-12 col-sm-6 col-md-3 col-lg-3>");
+	print ("<div class=\"event_float col-xs-12 col-sm-6 col-md-3 col-lg-3\">");
 	print ("<form action=wp-content/themes/areview-child/artist_info.php method=post>");
 	print ("<div class=img-wrap style=\"background-image: url(" .$pic.");\"></div>
 			<h4> ".$time." - ".$venue."</h4><h2>".$artist_name."</h2>

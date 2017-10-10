@@ -199,10 +199,84 @@ body.home header.entry-header {
 
 
 /* EVENTS STYLES */
-.page-template-custom_events .widget-area {
+body.page-template-custom_events .widget-area {
 	display: none !important;
 }
 
+body.page-template-custom_events.site-content {
+    padding: 30px 30px 0;
+}
+
+.event {
+    float: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    margin: 20px auto 15px;
+    padding: 4px 0 4px 4px;
+    background: #136b66;
+    display: block;       
+}
+
+.event_float {
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    height: auto;
+    padding: 0 14px;
+    margin: 0;
+    border: 0;
+    box-shadow: 0 0 0 transparent;
+    box-sizing: border-box;   
+}
+
+.event_float form {
+    margin: 15px auto;
+    max-width: 320px;
+    background: #000;
+}
+
+.event_float .img-wrap {
+	width: 100%;
+	background-color: #CCC;
+	padding-bottom: 58%;
+	background-size: cover;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	max-height: 170px;
+	background-position: center;
+}
+
+.event_float h4 {
+    color: #00ae9e;
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 34px;
+    padding: 0 15px;
+    font-style: italic;
+}
+
+.event_float h2 {
+    color: white;
+    font-weight: 700;
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+    min-height: 100px;
+    padding: 0 15px;
+}
+
+.cta-wrap {
+    display: block;
+    min-height: 30px;
+}
+
+.cta-wrap button:fist-child {
+	float: left;
+	margin-left: 15px;
+	width: 75px;
+	font-weight: 700;
+}
 
 
 /* TRAVEL INFO */
@@ -352,6 +426,10 @@ body.home header.entry-header {
 	/* EVENTS STYLES */
 	.page-template-custom_events .content-area {
 		width: 100% !important;
+	}
+
+	body.page-template-custom_events.site-content {
+	    padding: 60px 60px 0;
 	}
 } /* End desktop media query */
 
