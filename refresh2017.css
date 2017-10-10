@@ -216,7 +216,9 @@ body.page-template-custom_events.site-content {
     margin: 20px auto 15px;
     padding: 4px 0 4px 4px;
     background: #136b66;
-    display: block;       
+    display: block;    
+    border-bottom: 3px solid teal;
+    text-align: center;	   
 }
 
 .event_float {
@@ -271,11 +273,16 @@ body.page-template-custom_events.site-content {
     min-height: 30px;
 }
 
-.cta-wrap button:fist-child {
+.cta-wrap button:first-child, .cta-wrap span {
 	float: left;
 	margin-left: 15px;
 	width: 75px;
 	font-weight: 700;
+}
+
+.cta-wrap span {
+	border: 1px solid #fff;
+	background: transparent;
 }
 
 
