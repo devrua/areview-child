@@ -243,12 +243,22 @@ body.page-template-custom_events.site-content {
 	width: 100%;
 	background-color: #CCC;
 	padding-bottom: 58%;
-	background-size: cover;
+	background-size: 100%;
 	overflow: hidden;
 	background-repeat: no-repeat;
 	max-height: 170px;
 	background-position: center;
+	transition: background-size 0.3s;
+	-webkit-transition: background-size 0.3s;
+	-o-transition: background-size 0.3s;
+	-moz-transition: background-size 0.3s;
+	cursor: pointer;
 }
+
+.event_float .img-wrap:hover {
+	background-size: 110%;
+}
+
 
 .event_float h4 {
     color: #00ae9e;
@@ -270,19 +280,38 @@ body.page-template-custom_events.site-content {
 
 .cta-wrap {
     display: block;
-    min-height: 30px;
+    min-height: 40px;
 }
 
-.cta-wrap button:first-child, .cta-wrap span {
+.cta-wrap a.book, .cta-wrap span.saor {
 	float: left;
 	margin-left: 15px;
 	width: 75px;
 	font-weight: 700;
 }
 
-.cta-wrap span {
+.cta-wrap a.info {
+	float: right;
+	margin-right: 15px;
+	width: 75px;
+	font-weight: 700;
+}
+
+.cta-wrap span.saor {
 	border: 1px solid #fff;
 	background: transparent;
+	color: white;
+	text-align: center;
+	padding: 3px 0 4px;
+}
+
+.cta-wrap a.book, .cta-wrap a.info {
+	background: white;
+	color: black;
+	text-align: center;
+	padding: 3px 0 4px;
+	border-radius: 2px; 
+	border: 1px solid #fff;
 }
 
 
@@ -438,6 +467,36 @@ body.page-template-custom_events.site-content {
 	body.page-template-custom_events.site-content {
 	    padding: 60px 60px 0;
 	}
+
+	/* WORKSHOP STYLES */
+
+	.hide-mobile {
+		display: none;
+	}
+
+	tr td:first-child {
+		display: none;
+	}
+
+	tr td:nth-of-type(2n) {
+		display: none;
+	}
+
+	table.work-table {
+		table-layout: fixed-width;
+	}
+
+	.work-table td {
+		width: 20%;
+		word-wrap: normal;
+	}
+
+	.work-table td.wshop-title {
+		width: 40%;
+	}
+
+
+	.
 } /* End desktop media query */
 
 
