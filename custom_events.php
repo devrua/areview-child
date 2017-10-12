@@ -63,7 +63,7 @@ foreach($results as $row) {
 	print ("<div class=img-wrap style=\"background-image: url(" .$pic.");\"></div>
 			<h4> ".$time." - ".$venue."</h4><h2>".$artist_name."</h2>
 			<div class=\"cta-wrap\">".$book_url);
-	print ("<button type=button value=".$artist_id." id=infoEvent onclick=showArtist(this.value) class=btn btn-info data-toggle=modal data-target=#myModal><h4>Artist info</h4></button></div>");
+	print ("<button type=button value=".$artist_id." id=infoEvent onclick=showArtist(this.value) class=info btn-info data-toggle=modal data-target=#myModal>Details</button></div>");
 	print ("</form></div>");
 }
 ?>

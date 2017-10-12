@@ -210,12 +210,12 @@ body.page-template-custom_events.site-content {
 .event {
     float: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     width: 100%;
     margin: 20px auto 15px;
-    padding: 4px 0 4px 4px;
-    background: #136b66;
+    padding: 4px 0 10px 4px;
+    background: transparent;
     display: block;    
     border-bottom: 3px solid teal;
     text-align: center;	   
@@ -243,20 +243,20 @@ body.page-template-custom_events.site-content {
 	width: 100%;
 	background-color: #CCC;
 	padding-bottom: 58%;
-	background-size: 100%;
+	background-size: cover;
 	overflow: hidden;
 	background-repeat: no-repeat;
 	max-height: 170px;
 	background-position: center;
-	transition: background-size 0.3s;
+/*	transition: background-size 0.3s;
 	-webkit-transition: background-size 0.3s;
 	-o-transition: background-size 0.3s;
-	-moz-transition: background-size 0.3s;
+	-moz-transition: background-size 0.3s;*/
 	cursor: pointer;
 }
 
 .event_float .img-wrap:hover {
-	background-size: 110%;
+/*	background-size: 110%;*/
 }
 
 
@@ -286,14 +286,14 @@ body.page-template-custom_events.site-content {
 .cta-wrap a.book, .cta-wrap span.saor {
 	float: left;
 	margin-left: 15px;
-	width: 75px;
+	width: 80px;
 	font-weight: 700;
 }
 
-.cta-wrap a.info {
+.cta-wrap .info {
 	float: right;
 	margin-right: 15px;
-	width: 75px;
+	width: 80px;
 	font-weight: 700;
 }
 
@@ -305,13 +305,23 @@ body.page-template-custom_events.site-content {
 	padding: 3px 0 4px;
 }
 
-.cta-wrap a.book, .cta-wrap a.info {
-	background: white;
+.cta-wrap a.book, .cta-wrap .info {
+	background: #FFF;
 	color: black;
 	text-align: center;
+	text-decoration: none;
 	padding: 3px 0 4px;
 	border-radius: 2px; 
 	border: 1px solid #fff;
+	opacity: 0.75;
+	-webkit-transition: opacity 0.3s ease;
+	-o-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+
+.cta-wrap a.book:hover, .cta-wrap .info:hover {
+	opacity: 1;
 }
 
 
