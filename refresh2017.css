@@ -15,6 +15,10 @@ a {
 	color: #ed7b32;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 /* logo image */
 .site-branding {
 	text-align: right;
@@ -91,7 +95,8 @@ a {
 }
 
 .decoration-bar {
-	background: rgb(0, 160, 176) !important;
+	/*background: rgb(0, 160, 176) !important;*/
+	background: teal;
 }
 
 .site-content {
@@ -106,9 +111,11 @@ a {
 }
 
 .card h2, .card h3, .card h4, .card h5, .card h6 {
-	background: #028080;
 	padding: 5px;
+	padding-bottom: 8px;
 	text-align: center;
+	color: #000;
+	border-bottom: 3px solid teal;
 }
 
 .content-area {
@@ -123,9 +130,10 @@ a {
 }	
 
 .widget-title {
-	background-color: #136b66;
+	background-color: transparent;
 	text-align: center;
 	margin: 0;
+	border-bottom: 3px solid teal;
 }
 		
 .widget-title + .decoration-bar {
@@ -259,9 +267,8 @@ body.page-template-custom_events.site-content {
 /*	background-size: 110%;*/
 }
 
-
 .event_float h4 {
-    color: #00ae9e;
+    color: teal;
     font-weight: bold;
     font-size: 16px;
     min-height: 34px;
@@ -324,6 +331,41 @@ body.page-template-custom_events.site-content {
 	opacity: 1;
 }
 
+/* EVENTS MODAL */
+body.page-template-custom_events #myModal {
+	margin: 0px auto;
+	width: 90%;
+	height: auto;
+	max-width: 800px;
+	padding-left: 0;
+	top: calc(15% - 50px) !important;
+}
+
+body.page-template-custom_events .modal-dialog {
+	width: 100%;
+	margin: 0;
+}
+
+body.page-template-custom_events .modal-header {
+	background: #000;
+	border-radius: 0;
+	border-bottom: 3px solid teal;
+	text-align: center;
+	font-size: 22px;
+	width: 100%;
+}
+
+body.page-template-custom_events .close {
+	color: #FFF;
+	float: right;
+	font-weight: 700;
+	opacity: 0.75;
+}
+
+body.page-template-custom_events .close {
+	opacity: 1;
+}
+
 
 /* TRAVEL INFO */
 .page-id-30 .content-area {
@@ -364,7 +406,7 @@ body.page-template-custom_events.site-content {
 		width: 100%;
 		text-align: center;
 		padding: 0px;
-		border: 4px solid rgb(2, 156, 171);
+		border: 4px solid teal;
 	}
 
 	.main-navigation ul li:hover > ul {
