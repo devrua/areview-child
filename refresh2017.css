@@ -1,7 +1,24 @@
-/***************************** MOBILE STYLES *****************************/
+@font-face {
+    font-family: 'Aller';
+    src:url('fonts/Aller.ttf.woff') format('woff'),
+        url('fonts/Aller.ttf.svg#Aller') format('svg'),
+        url('fonts/Aller.ttf.eot'),
+        url('fonts/Aller.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/***************************** Base & Mobile Styles *****************************/
 
 h1, h2, h3, h4, h5, h6 {
 	color: #d7d7d7;
+	font-family: 'Open Sans', Aller, 'Trebuchet MS', sans-serif;
+	text-transform: uppercase;
+}
+
+html, body, p, a, div {
+	font-family: Aller, 'Trebuchet MS', sans-serif;
 }
 
 /* Background image set in the theme in WP dashboard, but styling/positioning options limited */
@@ -30,6 +47,10 @@ a:hover {
 
 .main-navigation {
 	background-color: rgba(0,0,0,0.8);
+}
+
+.menu-item-has-children > a::after, .page_item_has_children > a::after {
+	color: #23BDC5;
 }
 
 .main-navigation a {
@@ -96,11 +117,11 @@ a:hover {
 
 .decoration-bar {
 	/*background: rgb(0, 160, 176) !important;*/
-	background: teal;
+	background: #23BDC5;
 }
 
 .site-content {
-	background: rgba(0,0,0,0.9);
+	background: rgba(0,0,0,0.95);
 }
 
 .card {
@@ -115,7 +136,7 @@ a:hover {
 	padding-bottom: 8px;
 	text-align: center;
 	color: #000;
-	border-bottom: 3px solid teal;
+	border-bottom: 3px solid #23BDC5;
 }
 
 .content-area {
@@ -130,10 +151,11 @@ a:hover {
 }	
 
 .widget-title {
+	color: #e2e2e2;
 	background-color: transparent;
 	text-align: center;
 	margin: 0;
-	border-bottom: 3px solid teal;
+	border-bottom: 3px solid #23BDC5;
 }
 		
 .widget-title + .decoration-bar {
@@ -227,7 +249,7 @@ body.page-template-custom_events_irish .site-content {
     padding: 4px 0 10px 4px;
     background: transparent;
     display: block;    
-    border-bottom: 3px solid teal;
+    border-bottom: 3px solid #23BDC5;
     text-align: center;	   
 }
 
@@ -270,7 +292,7 @@ body.page-template-custom_events_irish .site-content {
 }
 
 .event_float h4 {
-    color: teal;
+    color: #23BDC5;
     font-weight: bold;
     font-size: 16px;
     min-height: 34px;
@@ -368,7 +390,7 @@ body.page-template-custom_events_irish .modal-content {
 body.page-template-custom_events .modal-header,
 body.page-template-custom_events_irish .modal-header {
 	background: black;
-	border-bottom: 3px solid teal;
+	border-bottom: 3px solid #23BDC5;
 	text-align: center;
 	font-size: 22px;
 	color: #000;
@@ -431,7 +453,7 @@ body.page-template-custom_events #scoilInfo h4,
 body.page-template-custom_events_irish #scoilInfo #scoilInfo h4 {
 	font-size: 14px;
 	font-weight: bold;
-	color: teal;
+	color: #23BDC5;
 	margin: 5px 0 11px 0;
 	display: block;
 	width: 100%;
@@ -471,7 +493,7 @@ body.page-template-custom_events_irish .tryer2 + hr {
 body.page-template-custom_events .tryer3,
 body.page-template-custom_events_irish  .tryer3 {
 	margin: 0;
-	color: teal;
+	color: #23BDC5;
 	text-align: center;
 	display: block;
 	width: 100%;
@@ -494,7 +516,6 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 /* WORKSHOP STYLES */
 
 .hide-mobile {
-	display: none;
 }
 
 .work-table tr td:first-child {
@@ -569,7 +590,7 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 		width: 100%;
 		text-align: center;
 		padding: 0px;
-		border: 4px solid teal;
+		border: 4px solid #23BDC5;
 	}
 
 	.main-navigation ul li:hover > ul {
