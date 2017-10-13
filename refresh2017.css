@@ -491,6 +491,42 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 	background: rgba(0,0,0,1);
 }
 
+/* WORKSHOP STYLES */
+
+.hide-mobile {
+	display: none;
+}
+
+.work-table tr td:first-child {
+	display: none;
+}
+
+.work-table tr td:nth-of-type(2n) {
+	display: none;
+}
+
+.work-table tr td:last-child {
+	display: table-cell;
+}
+
+.work-table table.work-table {
+	table-layout: fixed-width;
+}
+
+.work-table td {
+	width: 20%;
+	word-wrap: normal;
+}
+
+/*.work-table td.hth-child(3) {
+	width: 40%;
+}*/
+
+.work-table h4 {
+    line-height: 15px;
+    font-size: 14px;
+ }
+
 
 
 
@@ -683,34 +719,7 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 	     border: 0;
 	 }
 
-	/* WORKSHOP STYLES */
-
-	.hide-mobile {
-		display: none;
-	}
-
-	tr td:first-child {
-		display: none;
-	}
-
-	tr td:nth-of-type(2n) {
-		display: none;
-	}
-
-	table.work-table {
-		table-layout: fixed-width;
-	}
-
-	.work-table td {
-		width: 20%;
-		word-wrap: normal;
-	}
-
-	.work-table td.wshop-title {
-		width: 40%;
-	}
-
-
+	
 	.
 } /* End desktop media query */
 
