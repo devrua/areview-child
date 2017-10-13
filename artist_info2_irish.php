@@ -23,7 +23,7 @@ session_start();
 $q = intval($_GET['q']);
 
 global $wpdb;
-$myData = $wpdb->get_results($wpdb->prepare("SELECT * FROM wp_artistsirish WHERE artist_id= '$q'", ARRAY_A));// frames
+$myData = $wpdb->get_results($wpdb->prepare("SELECT * FROM wp_artists_gae WHERE artist_id= '$q'", ARRAY_A));// frames
 
 foreach($myData as $row){
 $artist_name = $row->artist_name;
@@ -36,17 +36,14 @@ $picLarge = $row->picLarge;
 $video = $row->video;
 $book_url = $row->book_url;
 
-
 print ("<style>
-  #scoilInfo {
+  .mob-img {
     background-image: url(".$picLarge.");
-    background-repeat: no-repeat;
-    background-position: bottom left;
-  }
+    }
 </style>");
 
-     print ("<div id=scoilInfo>");
-       print ("<h3>".$artist_name."</h3></br></br><h4>".$date."</br>".$time." - ".$venue."</h4>
-       <div class=holder><div class=boxer><p>".$info."</p></div><br><div class=tryer2>".$video."</div><div class=tryer3>".$book_url."</div></div>");
+print ("<div id=scoilInfo><div class=row><div class=\"col-xs-12 col-sm-12 col-md-12\">");
+print ("<h3>".$artist_name."</h3><h4>".$date."</br>".$time." - ".$venue."</h4></div></div><div class=row><div class=\"col-xs-12 col-sm-12 col-md-7\"><div class=mob-img-wrap><div class=mob-img></div></div></div>
+       <div class=\"col-xs-12 col-sm-12 col-md-5\"><div class=boxer><p>".$info."</p></div><div class=tryer2>".$video."</div><hr><div class=tryer3>".$book_url."</div></div></div></div>");
 }
 ?>

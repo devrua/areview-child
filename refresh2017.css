@@ -207,11 +207,13 @@ body.home header.entry-header {
 
 
 /* EVENTS STYLES */
-body.page-template-custom_events .widget-area {
+body.page-template-custom_events .widget-area,
+body.page-template-custom_events_irish .widget-area {
 	display: none !important;
 }
 
-body.page-template-custom_events.site-content {
+body.page-template-custom_events.site-content,
+body.page-template-custom_events_irish .site-content {
     padding: 30px 30px 0;
 }
 
@@ -332,7 +334,8 @@ body.page-template-custom_events.site-content {
 }
 
 /* EVENTS MODAL */
-body.page-template-custom_events #myModal {
+body.page-template-custom_events #myModal,
+body.page-template-custom_events_irish #myModal {
 	margin: 0px auto;
 	width: 90%;
 	max-width: 800px;
@@ -345,7 +348,8 @@ body.page-template-custom_events #myModal {
 
 }
 
-body.page-template-custom_events .modal-dialog {
+body.page-template-custom_events .modal-dialog,
+body.page-template-custom_events_irish .modal-dialog{
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -354,13 +358,15 @@ body.page-template-custom_events .modal-dialog {
 	overflow-y: scroll;
 }
 
-body.page-template-custom_events .modal-content {
+body.page-template-custom_events .modal-content,
+body.page-template-custom_events_irish .modal-content {
 	box-shadow: 0 0 0 transparent;
 	background-color: white;
 	border: 0;
 }
 
-body.page-template-custom_events .modal-header {
+body.page-template-custom_events .modal-header,
+body.page-template-custom_events_irish .modal-header {
 	background: black;
 	border-bottom: 3px solid teal;
 	text-align: center;
@@ -369,23 +375,27 @@ body.page-template-custom_events .modal-header {
 	border-radius: 0;
 }
 
-body.page-template-custom_events .modal-body {
+body.page-template-custom_events .modal-body,
+body.page-template-custom_events_irish .modal-body {
 	border-radius: 0;
 	padding: 10px;
 }
 
-body.page-template-custom_events .close {
+body.page-template-custom_events .close,
+body.page-template-custom_events_irish .close  {
 	color: #FFF;
 	float: right;
 	font-weight: 700;
 	opacity: 0.75;
 }
 
-body.page-template-custom_events .close:hover {
+body.page-template-custom_events .close:hover,
+body.page-template-custom_events_irish .close:hover {
 	opacity: 1;
 }
 
-body.page-template-custom_events #scoilInfo h3 {
+body.page-template-custom_events #scoilInfo h3,
+body.page-template-custom_events_irish #scoilInfo h3 {
 	background: rgba(255,255,255,0.8);
 	font-size: 20px;
 	padding: 0;
@@ -410,13 +420,15 @@ body.page-template-custom_events #scoilInfo h3 {
 	background-position: center;
  }
 
-body.page-template-custom_events #scoilInfo h3 {
+body.page-template-custom_events #scoilInfo h3,
+body.page-template-custom_events_irish #scoilInfo h3 {
 	background: rgba(255,255,255,0.8);
 	margin: 10px auto 10px auto;
 	width: 100%;
 }
 
-body.page-template-custom_events #scoilInfo h4 {
+body.page-template-custom_events #scoilInfo h4,
+body.page-template-custom_events_irish #scoilInfo #scoilInfo h4 {
 	font-size: 14px;
 	font-weight: bold;
 	color: teal;
@@ -426,7 +438,8 @@ body.page-template-custom_events #scoilInfo h4 {
 	float: left;
 }
 
-body.page-template-custom_events #scoilInfo .boxer {
+body.page-template-custom_events #scoilInfo .boxer,
+body.page-template-custom_events_irish #scoilInfo .boxer {
 	margin: 10px auto;
 	border: 2px solid #CCC;
 	width: auto;
@@ -437,22 +450,26 @@ body.page-template-custom_events #scoilInfo .boxer {
 	overflow: scroll;
 }
 
-body.page-template-custom_events #scoilInfo .boxer p {
+body.page-template-custom_events #scoilInfo .boxer p,
+body.page-template-custom_events_irish #scoilInfo .boxer p {
 	color: #000;
 	font-weight: 400;
 	padding: 0;
 	width: auto;
 }
 
-body.page-template-custom_events .tryer2 {
+body.page-template-custom_events .tryer2,
+body.page-template-custom_events_irish .tryer2 {
 	display: none;
 }
 
-body.page-template-custom_events .tryer2 + hr {
+body.page-template-custom_events .tryer2 + hr,
+body.page-template-custom_events_irish .tryer2 + hr {
 	display: none;
 }
 
-body.page-template-custom_events .tryer3 {
+body.page-template-custom_events .tryer3,
+body.page-template-custom_events_irish  .tryer3 {
 	margin: 0;
 	color: teal;
 	text-align: center;
@@ -460,7 +477,8 @@ body.page-template-custom_events .tryer3 {
 	width: 100%;
 }
 
-body.page-template-custom_events .tryer3 a {
+body.page-template-custom_events .tryer3 a,
+body.page-template-custom_events_irish .tryer3 a {
 	background: rgba(0,0,0,0.8);
 	padding: 4px 11px;
 	border-radius: 2px;
@@ -468,7 +486,8 @@ body.page-template-custom_events .tryer3 a {
 	transition: all 0.3s ease;
 }
 
-body.page-template-custom_events .tryer3 a:hover {
+body.page-template-custom_events .tryer3 a:hover,
+body.page-template-custom_events_irish .tryer3 a:hover  {
 	background: rgba(0,0,0,1);
 }
 
