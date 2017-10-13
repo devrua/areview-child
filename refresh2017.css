@@ -335,24 +335,42 @@ body.page-template-custom_events.site-content {
 body.page-template-custom_events #myModal {
 	margin: 0px auto;
 	width: 90%;
-	height: auto;
 	max-width: 800px;
-	padding-left: 0;
 	top: calc(15% - 50px) !important;
+	display: block;
+	border: 3px solid white;
+	height: 431px;
+	overflow: hidden;
+	box-shadow: 0px 0px 0px transparent;
+	padding-left: 0 !important;
+
 }
 
 body.page-template-custom_events .modal-dialog {
 	width: 100%;
 	margin: 0;
+	background: white;
+	box-shadow: 0 0 0 transparent;
+}
+
+body.page-template-custom_events .modal-content {
+	box-shadow: 0 0 0 transparent;
+	background-color: white;
+	border: 0;
 }
 
 body.page-template-custom_events .modal-header {
-	background: #000;
-	border-radius: 0;
+	background: black;
 	border-bottom: 3px solid teal;
 	text-align: center;
 	font-size: 22px;
-	width: 100%;
+	color: #000;
+	border-radius: 0;
+}
+
+body.page-template-custom_events .modal-body {
+	border-radius: 0;
+	padding: 10px;
 }
 
 body.page-template-custom_events .close {
@@ -362,9 +380,79 @@ body.page-template-custom_events .close {
 	opacity: 0.75;
 }
 
-body.page-template-custom_events .close {
+body.page-template-custom_events .close:hover {
 	opacity: 1;
 }
+
+body.page-template-custom_events #scoilInfo h3 {
+	background: rgba(255,255,255,0.8);
+	padding: 8px;
+	margin: 10px 5px 0 auto;
+}
+
+.mob-img-wrap {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	max-height: 300px;
+}
+
+ .mob-img {
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 33%;
+ }
+
+body.page-template-custom_events #scoilInfo h3 {
+	background: rgba(255,255,255,0.8);
+	margin: 10px auto 10px auto;
+	width: 100%;
+}
+
+body.page-template-custom_events #scoilInfo h4 {
+	font-size: 14px;
+	font-weight: bold;
+	color: teal;
+	margin: 5px 0 11px 0;
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+body.page-template-custom_events #scoilInfo .boxer {
+	margin: 10px auto;
+	border: 2px solid #CCC;
+	width: auto;
+	background: transparent;
+	color: #FFF;
+	box-sizing: border-box;
+}
+
+body.page-template-custom_events #scoilInfo .boxer p {
+	color: #000;
+	font-weight: 400;
+	padding: 0;
+	width: auto;
+}
+
+body.page-template-custom_events .tryer3 {
+	display: none;
+}
+
+body.page-template-custom_events .tryer3 + hr {
+	display: none;
+}
+
+body.page-template-custom_events .tryer3 {
+	margin: 0;
+	color: teal;
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+
 
 
 /* TRAVEL INFO */
@@ -518,6 +606,27 @@ body.page-template-custom_events .close {
 
 	body.page-template-custom_events.site-content {
 	    padding: 60px 60px 0;
+	}
+
+	/* EVENTS MODAL */
+	#scoilInfo .row {
+		margin: 0;
+	}
+
+	#scoilInfo .left-area {
+		background-size: contain;
+		background-position: top;
+		min-height: 450px;
+		background-repeat: no-repeat;
+	}
+
+	body.page-template-custom_events #scoilInfo h4 {
+		margin-left: 0;
+	}
+
+	body.page-template-custom_events #scoilInfo .boxer {
+		padding-top: 0;
+		margin-top: 0;
 	}
 
 	/* WORKSHOP STYLES */
