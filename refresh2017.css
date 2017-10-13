@@ -135,6 +135,7 @@ a:hover {
 }
 
 .site-content {
+	padding: 15px;
 	background: rgba(0,0,0,0.95);
 }
 
@@ -355,6 +356,7 @@ body.page-template-custom_events_irish .site-content {
 	color: black;
 	font-size: 13px;
 	line-height: 13px;
+	font-weight: 400;
 	text-align: center;
 	text-decoration: none;
 	padding: 3px 0 4px;
@@ -530,6 +532,63 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 }
 
 /* WORKSHOP STYLES */
+
+.wshop {
+	background: #181818;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.wshop-title {
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    padding: 5px 5px 10px;
+    border-bottom: 3px solid #efefef;
+}
+
+.wshop-image {
+	height: 110px;
+	background-size: cover;
+	background-position: center;
+}
+
+.wshop-tutor, .wshop-price {
+	height: 55px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.wshop-cta {
+	text-align: center;
+	padding: 15px;
+}
+
+.wshop-cta a.book {
+	display: inline-block;
+	background: #FFF;
+	color: black;
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 80px;
+	padding: 3px 0 4px;
+	border-radius: 2px; 
+	border: 1px solid #fff;
+	opacity: 0.75;
+	-webkit-transition: opacity 0.3s ease;
+	-o-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+
+.wshop-cta a.book:hover {
+	opacity: 1;
+}
+
 
 .hide-mobile {
 }
@@ -760,8 +819,17 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 	     border: 0;
 	 }
 
-	
-	.
+	 /* WORKSHOP STYLES */
+
+	 .wshop-title, .wshop-tutor, .wshop-price {
+	     padding-top: 30px;
+	     border: 0;
+	 }
+
+	 .wshop-cta {
+	 	padding-top: 29px;
+	 }
+
 } /* End desktop media query */
 
 
