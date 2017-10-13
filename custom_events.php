@@ -40,6 +40,7 @@
 
 <!--//Artists Information //////////////////////-->
 <div class="row clearfix">
+	<h1>CONCERTS &amp; EVENTS AT SCOIL GHEIMHRIDH 2017</h1>
 	<div class="event">Dé Céadaoin, 27 Nollaig</div>
 </div>
 <div class="row">

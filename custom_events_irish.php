@@ -46,7 +46,7 @@
 <?php
 
 global $wpdb;
-$results = $wpdb->get_results("SELECT * FROM wp_artistsirish WHERE date LIKE '%27 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
+$results = $wpdb->get_results("SELECT * FROM wp_artists_gae WHERE date LIKE '%27 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
 foreach($results as $row) {
         	$artist_id = $row['artist_id'];
 		  	$artist_name  = $row['artist_name'];
@@ -76,7 +76,7 @@ foreach($results as $row) {
 <?php
 
 global $wpdb;
-$results = $wpdb->get_results("SELECT * FROM wp_artistsirish WHERE date LIKE '%28 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
+$results = $wpdb->get_results("SELECT * FROM wp_artists_gae WHERE date LIKE '%28 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
 foreach($results as $row) {
         	$artist_id = $row['artist_id'];
 		  	$artist_name  = $row['artist_name'];
@@ -106,7 +106,7 @@ foreach($results as $row) {
 <?php
 
 global $wpdb;
-$results = $wpdb->get_results("SELECT * FROM wp_artistsirish WHERE date LIKE '%29 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
+$results = $wpdb->get_results("SELECT * FROM wp_artists_gae WHERE date LIKE '%29 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
 foreach($results as $row) {
         	$artist_id = $row['artist_id'];
 		  	$artist_name  = $row['artist_name'];
@@ -137,7 +137,7 @@ foreach($results as $row) {
 <?php
 
 global $wpdb;
-$results = $wpdb->get_results("SELECT * FROM wp_artistsirish WHERE date LIKE '%30 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
+$results = $wpdb->get_results("SELECT * FROM wp_artists_gae WHERE date LIKE '%30 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
 foreach($results as $row) {
         	$artist_id = $row['artist_id'];
 		  	$artist_name  = $row['artist_name'];
@@ -168,7 +168,7 @@ foreach($results as $row) {
 <?php
 
 global $wpdb;
-$results = $wpdb->get_results("SELECT * FROM wp_artistsirish WHERE date LIKE '%31 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
+$results = $wpdb->get_results("SELECT * FROM wp_artists_gae WHERE date LIKE '%31 Nollaig' ORDER BY artist_id ASC;", ARRAY_A);
 foreach($results as $row) {
         	$artist_id = $row['artist_id'];
 		  	$artist_name  = $row['artist_name'];
@@ -199,7 +199,7 @@ foreach($results as $row) {
 	<?php
 
 	global $wpdb;
-	$results = $wpdb->get_results("SELECT * FROM wp_artistsirish WHERE date LIKE '%1 Eanáir' ORDER BY artist_id ASC;", ARRAY_A);
+	$results = $wpdb->get_results("SELECT * FROM wp_artists_gae WHERE date LIKE '%1 Eanáir' ORDER BY artist_id ASC;", ARRAY_A);
 	foreach($results as $row) {
 	        	$artist_id = $row['artist_id'];
 			  	$artist_name  = $row['artist_name'];
