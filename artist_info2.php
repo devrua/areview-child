@@ -42,8 +42,8 @@ print ("<style>
     }
 </style>");
 
-print ("<div id=scoilInfo><div class=row><div class=col-xs-12 col-sm-12 col-md-12>");
-print ("<h3>".$artist_name."</h3><h4>".$date."</br>".$time." - ".$venue."</h4></div></div><div class=row><div class=col-xs-12 col-sm-12 col-md-7><div class=mob-img-wrap><div class=mob-img></div></div></div>
-       <div class=col-xs-12 col-sm-12 col-md-5><div class=boxer><p>".$info."</p></div><div class=tryer2>".$video."</div><hr><div class=tryer3>".$book_url."</div></div></div></div>");
+print ("<div id=scoilInfo><div class=row><div class=\"col-xs-12 col-sm-12 col-md-12\">");
+print ("<h3>".$artist_name."</h3><h4>".$date."</br>".$time." - ".$venue."</h4></div></div><div class=row><div class=\"col-xs-12 col-sm-12 col-md-7\"><div class=mob-img-wrap><div class=mob-img></div></div></div>
+       <div class=\"col-xs-12 col-sm-12 col-md-5\"><div class=boxer><p>".$info."</p></div><div class=tryer2>".$video."</div><hr><div class=tryer3>".$book_url."</div></div></div></div>");
 }
 ?>
