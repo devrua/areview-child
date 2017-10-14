@@ -134,6 +134,10 @@ a:hover {
 	background: #23BDC5;
 }
 
+header.entry-header {
+	display: none;
+}
+
 .site-content {
 	padding: 15px;
 	background: rgba(0,0,0,0.95);
