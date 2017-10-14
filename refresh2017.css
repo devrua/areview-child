@@ -738,7 +738,7 @@ tr.accom-imgs {
 
 	.main-navigation ul ul li {
 		background-color: transparent;
-		padding: 20px 3.4%;
+		padding: 20px 3.3%;
 		border: 0;
 	}
 
@@ -896,24 +896,32 @@ tr.accom-imgs {
 	 	padding-top: 29px;
 	 }
 
-	 /* ACCOMMODATION STYLES */
-	 tr.accom-imgs {
-	 	display: table-row;
-	 }
-
 	 .page-id-32 table td:empty {
 	 	display: table-cell;
 	 }
 
-
-
-
-
-
-
-
 } /* End desktop media query */
 
+
+@media only screen and (min-width: 980px) {
+	/* ACCOMMODATION STYLES */
+	tr.accom-imgs {
+		display: table-row;
+	}
+}
+
+
+
+@media only screen and (min-width: 980px) and (max-width: 1120px) {
+	.lang-links {
+	    margin-top: 93px;
+	    width: 40px;
+	    text-align: left;
+	    right: 9%;
+	    left: auto;
+	}
+}
+		
 
 /* Original theme breakpoints */
 @media only screen and (max-width: 1199px) {
