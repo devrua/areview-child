@@ -125,8 +125,31 @@ a:hover {
 	margin: 0 0 0 15px;
 }
 
-.socials .links a {
+.links .socials a {
+	display: inline-block;
+	width: 33px;
+	height: 33px;
 	margin: 0;
+	background-size: 100%;
+	transition: all 0.3s ease-in-out;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.links .socials a img {
+	display: none !important;
+}
+
+.links .socials:first-child a {
+	background-image: url(img/fb.svg);
+}
+
+.links .socials:last-child a {
+	background-image: url(img/tw.svg);
+}
+
+.links .socials a:hover {
+	background-size: 90%;
 }
 
 .decoration-bar {
@@ -704,16 +727,18 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 	}
 
 	.social-links {
-		width: 50px;
+		width: 44px;
 		position: fixed;
 		right: auto;
-		top: -2px;
+		top: 5px;
 		margin: 0;
-		left: 10px;
+		left: 6px;
+		background: rgba(185, 182, 182, 0.5);
+		border-radius: 50px;
 	}
 
 	.socials {
-		margin: 20px 0 0 15px;
+		margin: 8px 9px 3px;
 	}
 
 	/* Main nav bar */
