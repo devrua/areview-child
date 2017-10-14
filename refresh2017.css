@@ -83,6 +83,10 @@ a:hover {
 	border-radius: 3px;
 }
 
+.btn.menu-toggle:hover {
+	color: #ffff00;
+}
+
 .site-header > .container {
 	padding: 0;
 }
@@ -131,7 +135,7 @@ a:hover {
 	height: 33px;
 	margin: 0;
 	background-size: 100%;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.15s ease-in-out;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -207,6 +211,7 @@ header.entry-header {
 section #huge_it_videogallery {
 	box-shadow: initial !important;
 	margin-top: 10px !important;
+	background-color: #181818 !important;
 }
 
 #huge_it_videogallery li img {
@@ -214,6 +219,10 @@ section #huge_it_videogallery {
     max-width: inherit !important;
     height: auto !important;
     min-height: 100% !important;
+}
+
+#huge_it_videogallery .huge_it_big_li {
+	border: 0 !important;
 }
 
 footer .site-info, footer .decoration-bar {
@@ -664,6 +673,9 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 }
 
 
+/*  VIDEO WID
+
+
 
 
 
@@ -686,6 +698,11 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 	/* logo image */
 	.site-branding > a > img {
 		height: 260px;
+	}
+
+	.main-navigation {
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 	.main-navigation ul ul {

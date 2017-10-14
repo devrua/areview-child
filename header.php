@@ -83,13 +83,16 @@
 	</header><!-- #masthead -->
 	<div class="clearfix">
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<div class="container">
-				<button class="menu-toggle btn"><i class="fa fa-bars"></i></button>
-				<?php if ( get_theme_mod('areview_home_icon') != 1 ) : ?>
-					<span class="home-icon"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><i class="fa fa-home"></i></a></span>
-				<?php endif; ?>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => false ) ); ?>
-
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<button class="menu-toggle btn"><i class="fa fa-bars"></i></button>
+						<?php if ( get_theme_mod('areview_home_icon') != 1 ) : ?>
+						<span class="home-icon"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><i class="fa fa-home"></i></a></span>
+						<?php endif; ?>
+						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => false ) ); ?>
+					</div>
+				</div>
 			</div>
 		</nav><!-- #site-navigation -->
 		<div class="decoration-bar"></div>
