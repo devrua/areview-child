@@ -21,7 +21,7 @@ h1 {
 	color: black;
 	padding: 2px 5px;
 	background: #23BDC5;
-	text-align: center;
+	text-align: left;
 	display: inline-block;
 	margin-bottom: 30px;
 	font-size: 30px;
@@ -31,11 +31,15 @@ html, body, p, a, div {
 	font-family: Aller, 'Trebuchet MS', sans-serif;
 }
 
-/* Background image set in the theme in WP dashboard, but styling/positioning options limited */
 body.custom-background {
 	background-image: url('img/sg2017HeroMob.png') !important;
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+p.intro {
+	font-size: 16px;
+	line-height: 20px;
 }
 
 a {
@@ -174,7 +178,7 @@ header.entry-header {
 	margin: 10px 0;
 	color: #000;
 	padding: 1px 15px 5px;
-	background: #efefef;
+	background: rgba(255,255,255,0.7);
 }
 
 .card h2, .card h3, .card h4, .card h5, .card h6 {
@@ -183,6 +187,11 @@ header.entry-header {
 	text-align: center;
 	color: #000;
 	border-bottom: 3px solid #23BDC5;
+}
+
+.card a {
+	color: #ff1b00;
+	word-wrap: break-word;
 }
 
 .content-area {
@@ -265,12 +274,14 @@ footer .site-info, footer .decoration-bar {
 }
 
 #text-6 .textwidget {
-	float: right;
+	float: none;
+	text-align: center;
 }
 
 #text-6 .textwidget img {
 	max-width: 200px;
 	margin: 0;
+	float: none;
 }
 
 /* HOME STYLES */
@@ -335,7 +346,6 @@ body.page-template-custom_events_irish .site-content {
 	-webkit-transition: background-size 0.3s;
 	-o-transition: background-size 0.3s;
 	-moz-transition: background-size 0.3s;*/
-	cursor: pointer;
 }
 
 .event_float .img-wrap:hover {
@@ -625,43 +635,6 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 	opacity: 1;
 }
 
-
-.hide-mobile {
-}
-
-.work-table tr td:first-child {
-	display: none;
-}
-
-.work-table tr td:nth-of-type(2n) {
-	display: none;
-}
-
-.work-table tr td:last-child {
-	display: table-cell;
-}
-
-.work-table table.work-table {
-	table-layout: fixed-width;
-}
-
-.work-table td {
-	width: 20%;
-	word-wrap: normal;
-}
-
-/*.work-table td.hth-child(3) {
-	width: 40%;
-}*/
-
-.work-table h4 {
-    line-height: 15px;
-    font-size: 14px;
- }
-
-
-
-
 /* TRAVEL INFO */
 .page-id-30 .content-area {
 	width: 100%;
@@ -673,7 +646,49 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 }
 
 
-/*  VIDEO WID
+/* ACCOMMODATION */
+
+.page-id-32 table {
+	table-layout: fixed;
+	width: auto;
+}
+
+.page-id-32 table td:empty {
+	display: none;
+}
+
+tr.accom-imgs {
+	display: none;
+}
+
+.page-id-32 table h4 {
+	line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -688,6 +703,7 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 		background-image: url('img/sg2017HeroDesk.png') !important;
 		background-attachment: fixed !important;
 		background-size: cover;
+		background-position: center;
 
 	}
 
@@ -819,6 +835,10 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 		margin: 0;
 	}
 
+	#text-6 .textwidget img {
+		float: right;
+	}
+
 
 	/* EVENTS STYLES */
 	.page-template-custom_events .content-area {
@@ -876,6 +896,22 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 	 	padding-top: 29px;
 	 }
 
+	 /* ACCOMMODATION STYLES */
+	 tr.accom-imgs {
+	 	display: table-row;
+	 }
+
+	 .page-id-32 table td:empty {
+	 	display: table-cell;
+	 }
+
+
+
+
+
+
+
+
 } /* End desktop media query */
 
 
@@ -889,7 +925,7 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 @media only screen and (max-width: 767px) {
 
 }
-@media only screen and (max-width: 599px) {
+@media only screen and (min-width: 599px) {
 
 }
 @media only screen and (max-width: 499px) {
