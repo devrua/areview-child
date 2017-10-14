@@ -209,7 +209,7 @@ header.entry-header {
 	color: #e2e2e2;
 	background-color: transparent;
 	text-align: center;
-	margin: 0;
+	margin: 70px 0 0 0;
 	border-bottom: 3px solid #23BDC5;
 }
 		
@@ -921,7 +921,7 @@ tr.accom-imgs {
 	    left: auto;
 	}
 }
-		
+
 
 /* Original theme breakpoints */
 @media only screen and (max-width: 1199px) {
