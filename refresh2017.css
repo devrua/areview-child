@@ -286,25 +286,29 @@ footer .site-info, footer .decoration-bar {
 	margin: 0;	
 }
 
-#text-5 .textwidget {
+/*#text-5 .textwidget {*/
+#sidebar-footer .sidebar-column:nth-child(2) .widget_text .textwidget {
 	float: right;
 }
 
-#text-5 .textwidget img {
+#sidebar-footer .sidebar-column:nth-child(2) .widget_text .textwidget img {
+/*#text-5 .textwidget img {*/
 	width: 100%;
 	max-width: 160px;
 }
 
-#text-6 {
+/*#text-6 {*/
+#sidebar-footer .sidebar-column:last-child .widget_text {
 	margin: 30px 0 0;
 }
 
-#text-6 .textwidget {
+/*#text-6 .textwidget {*/
+#sidebar-footer .sidebar-column:last-child .widget_text .textwidget {
 	float: none;
 	text-align: center;
 }
 
-#text-6 .textwidget img {
+#sidebar-footer .sidebar-column:last-child .widget_text .textwidget img {
 	max-width: 200px;
 	margin: 0;
 	float: none;
@@ -314,7 +318,7 @@ footer .site-info, footer .decoration-bar {
 body.home header.entry-header {
 	display: none;
 }
-
+page-template-custom_events_irish
 
 /* EVENTS STYLES */
 body.page-template-custom_events .widget-area,
@@ -323,7 +327,7 @@ body.page-template-custom_events_irish .widget-area {
 }
 
 body.page-template-custom_events.site-content,
-body.page-template-custom_events_irish .site-content {
+body.page-template-custom_events_irish.site-content {
     padding: 30px 30px 0;
 }
 
@@ -657,7 +661,7 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 }
 
 /* TRAVEL INFO */
-.page-id-30 .content-area {
+.page-id-30 .content-area, .page-id-34 .content-area {
 	width: 100%;
 }
 
@@ -669,12 +673,12 @@ body.page-template-custom_events_irish .tryer3 a:hover  {
 
 /* ACCOMMODATION */
 
-.page-id-32 table {
+.page-id-32 table, .page-id-27 table {
 	table-layout: fixed;
 	width: auto;
 }
 
-.page-id-32 table td:empty {
+.page-id-32 table td:empty, .page-id-27 table td:empty {
 	display: none;
 }
 
@@ -682,22 +686,22 @@ tr.accom-imgs {
 	display: none;
 }
 
-.page-id-32 table h4 {
+.page-id-32 table h4, .page-id-27 table h4 {
 	line-height: 1.2;
 }
 
 
 /* CONTACT */
 
-#post-18 table {
+#post-18 table, .page-id-29 table {
 	width: auto;
 }
 
-#post-18 table h4 {
+#post-18 table h4, .page-id-29 table h4 {
 	margin-bottom: 9px;
 }
 
-#post-18 table p {
+#post-18 table p, .page-id-29 table p {
 	line-height: 1.6;
 }
 
@@ -861,25 +865,30 @@ tr.accom-imgs {
 		padding-right: 0;
 	}
 
-	#text-5 .textwidget {
+	#sidebar-footer .sidebar-column:nth-child(2) .widget_text .textwidget {
 	    float: none;
 	}
 
-	#text-6 {
+	#sidebar-footer .sidebar-column:last-child .widget_text {
+	/*	#text-6 {*/
 		margin: 0;
 	}
 
-	#text-6 .textwidget img {
+	/*#text-6 .textwidget img {*/
+	#sidebar-footer .sidebar-column:last-child .widget_text .textwidget img {
 		float: right;
 	}
 
 
 	/* EVENTS STYLES */
-	.page-template-custom_events .content-area {
+	.page-template-custom_events .content-area,
+	.page-template-custom_events_irish .content-area
+	 {
 		width: 100% !important;
 	}
 
-	body.page-template-custom_events.site-content {
+	body.page-template-custom_events.site-content,
+	body.page-template-custom_events_irish.site-content {
 	    padding: 60px 60px 0;
 	}
 
@@ -930,7 +939,9 @@ tr.accom-imgs {
 	 	padding-top: 29px;
 	 }
 
-	 .page-id-32 table td:empty {
+	  /* ACCOMMODATION STYLES */
+
+	 .page-id-32 table td:empty, .page-id-27 table td:empty {
 	 	display: table-cell;
 	 }
 
